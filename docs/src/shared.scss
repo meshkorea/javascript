@@ -1,0 +1,143 @@
+a, a:hover, a:active, a:focus {
+	text-decoration: none;
+	color: #555;
+	outline: none;
+}
+
+/* Color palette */
+
+$primary-100: #1b3993;
+$gray-40: #a5a9b5;
+$gray-100: #444a5c;
+$gray-30: #bec0c8;
+$gray-80: #676d7e;
+$primary-30: #b9c3e1;
+$gray-110: #303545;
+$gray-10: #f0f2f5;
+$gray-20: #dadbe0;
+$gray-5: #f8f9fd;
+$gray-15: #e5e7ec;
+$gray-60: #8c909d;
+$white: #ffffff;
+$red-80: #ee5e5e;
+$red-100: #ef3636;
+$red-60: #f17474;
+$red-40: #f48e8e;
+$red-20: #f0b6b6;
+$red-10: #fce4e0;
+$orange-80: #e7b036;
+$orange-100: #e8a206;
+$orange-60: #e8bb58;
+$orange-10: #f8eed7;
+$orange-20: #f1d69b;
+$orange-40: #e8c477;
+$green-100: #6acf1b;
+$green-80: #85d844;
+$green-60: #95e15a;
+$green-40: #a4e174;
+$blue-100: #4882e4;
+$green-20: #bbed95;
+$green-10: #e9fdda;
+$blue-80: #6293e6;
+$blue-40: #a5bfea;
+$blue-60: #86aded;
+$blue-20: #bdd1f5;
+$blue-10: #e1eafa;
+$violet-100: #ad3df3;
+$violet-80: #b65bef;
+$violet-60: #c581f0;
+$violet-40: #d6a7f4;
+$violet-20: #e5caf7;
+$violet-10: #f0e8f5;
+$primary-60: #8d9cc9;
+
+/* Text styles */
+
+.page-title-compact {
+	font-family: SpoqaHanSans;
+	font-size: 16px;
+	font-weight: bold;
+	letter-spacing: -0.4px;
+	text-align: left;
+	color: $primary-100;
+}
+
+.input-text-placeholder {
+	font-family: SourceSansPro-It;
+	font-size: 16px;
+	text-align: left;
+	color: $gray-40;
+}
+
+.button-regular-text {
+	font-family: SpoqaHanSans;
+	font-size: 16px;
+	text-align: left;
+	color: $gray-80;
+}
+
+.input-text {
+	font-family: SpoqaHanSans;
+	font-size: 16px;
+	text-align: left;
+	color: $gray-110;
+}
+
+.button-text-regular-white {
+	font-family: SpoqaHanSans;
+	font-size: 16px;
+	text-align: left;
+	color: $white;
+}
+
+.table-cell-text-compact {
+	font-family: SpoqaHanSans;
+	font-size: 15px;
+	line-height: 2.67;
+	text-align: left;
+	color: #43454c;
+}
+
+.button-small-text {
+	font-family: SpoqaHanSans;
+	font-size: 14px;
+	text-align: left;
+	color: $gray-80;
+}
+
+.input-text-choosable {
+	font-family: SpoqaHanSans;
+	font-size: 14px;
+	line-height: 2.14;
+	text-align: left;
+	color: $gray-80;
+}
+
+.lmb-text-menu {
+	font-family: SpoqaHanSans;
+	font-size: 14px;
+	text-align: left;
+	color: $white;
+}
+
+.input-label {
+	font-family: SpoqaHanSans;
+	font-size: 12px;
+	font-weight: bold;
+	text-align: left;
+	color: $gray-60;
+}
+
+.button-xsmall-text {
+	font-family: SpoqaHanSans;
+	font-size: 12px;
+	text-align: left;
+	color: $gray-80;
+}
+
+.lmb-text-sub {
+	font-family: SpoqaHanSans;
+	font-size: 12px;
+	text-align: left;
+	color: $primary-60;
+}
