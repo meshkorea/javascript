@@ -1,0 +1,74 @@
+@import '../../shared.scss';
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 240px;
+  height: 100%;
+  color: white;
+  background-color: $primary-100;
+
+  h2 {
+    margin: 0;
+    padding: 14px 20px 11px;
+    font-weight: lighter;
+    box-sizing: border-box;
+  }
+
+  h4 {
+    margin: 0;
+    padding: 0px 20px 15px;
+    font-size: 16px;
+    font-weight: lighter;
+    color: $white;
+    border-bottom: solid 1px rgba(255, 255, 255, 0.1);
+    box-sizing: border-box;
+  }
+
+  h5 {
+    margin: 0;
+    padding: 10px 20px 5px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 12px;
+    font-weight: lighter;
+    color: $primary-60;
+  }
+
+  ul {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    margin-left: 20px;
+    padding-bottom: 10px;
+    border-bottom: solid 1px rgba(255, 255, 255, 0.1);
+    box-sizing: border-box;
+    font-weight: lighter;
+  }
+
+  ul li {
+    display: block;
+    margin-left: -20px;
+    list-style: none;
+    width: 100%;
+    height: 36px;
+    line-height: 36px;
+    text-indent: 20px;
+  }
+
+  ul li.selected {
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+
+  a {
+    display: block;
+    color: $white;
+    text-decoration: none;
+  }
+
+  a:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+    color: $white;
+  }
+}

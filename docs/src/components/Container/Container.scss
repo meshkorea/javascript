@@ -1,0 +1,22 @@
+@import '../../shared.scss';
+
+.container-box {
+  h1 {
+    margin: 0;
+    margin-bottom: 13px;
+    font-size: 36px;
+    font-weight: normal;
+    letter-spacing: -1px;
+    text-align: left;
+    padding: 6px 0 10px;
+    border-bottom: solid 1px #dadada;
+
+    a {
+      color: $primary-100;
+    }
+  }
+
+  h1 + div {
+    margin-bottom: 15px;
+  }
+}

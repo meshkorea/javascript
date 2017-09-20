@@ -1,0 +1,37 @@
+@import '../../shared.scss';
+
+table {
+  display: block;
+  border-spacing: 0;
+  border-top: 2px solid #ccc;
+  border-bottom: 2px solid #ccc;
+}
+
+tr {
+  padding: 0;
+  margin: 0;
+  height: 36px;
+  line-height: 36px;
+
+  th {
+    padding: 0 10px;
+    margin: 0;
+    width: 170px;
+    color: $gray-80;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 2.86;
+    text-align: left;
+    background-color: #f0f1f5;
+    border-bottom: 1px solid #dadada;
+  }
+
+  td {
+    width: 85%;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    text-indent: 10px;
+    border-bottom: 1px solid #dadada;
+  }
+}
